@@ -6,6 +6,13 @@ import store from './store'
 
 Vue.config.productionTip = false
 
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+
+//import './main.scss'
+
+Vue.use(BootstrapVue)
+Vue.use(IconsPlugin)
+
 new Vue({
   router,
   store,
